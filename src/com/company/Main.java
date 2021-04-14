@@ -13,7 +13,7 @@ public class Main {
 
         System.out.println("Задание 2: ");
 
-        String[] arr2 = {"изучать", "java", "интерресно",};
+        String[] arr2 = {"изучать", "java", "интересно",};
         arrToArrayList(arr2);
 
         System.out.println("Задание 3: ");
@@ -28,7 +28,7 @@ public class Main {
         applebox2.addFruit(new Apple(), 8);
         orangesbox2.addFruit(new Orange(), 7);
 
-        System.out.println("Вес applesbox коробки с яблоками: " + applesbox.getWeight());
+        System.out.println("Вес applesbox коробки с яблоками: " + applesbox.getWeight()+);
         System.out.println("Вес orangesbox коробки с апельсинми: " + orangesbox.getWeight());
 
         System.out.println("Сравнение коробок applesbox и orangesbox: " + applesbox.compare(orangesbox));
